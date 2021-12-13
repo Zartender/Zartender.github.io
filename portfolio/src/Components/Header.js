@@ -4,6 +4,7 @@ import logo from './logo.svg';
 class Header extends Component {
     render() {
         return (
+            <div>
             <header className="App-header">
 
                 <nav id="nav-wrap">
@@ -33,6 +34,7 @@ class Header extends Component {
                 </a>
                 <img src={logo} className="App-logo" alt="logo" />
             </header>
+            </div>
         );
     }
 }
