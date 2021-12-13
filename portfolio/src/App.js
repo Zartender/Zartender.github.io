@@ -4,7 +4,7 @@ import Header from './Components/Header';
 import About from './Components/About';
 import Resume from './Components/Resume';
 import Projects from './Components/Projects'; 
-
+import Footer from './Components/Footer'; 
 
 class App extends Component {
 // Default React App Code
@@ -36,6 +36,7 @@ render() {
       <About/>
       <Resume/>
       <Projects/>
+      <Footer/>
     </div>
   );
 }
