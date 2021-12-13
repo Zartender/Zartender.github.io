@@ -10,12 +10,13 @@ header {
   overflow: hidden;
 }
 
-header:before {
+/* header:before {
   content: '';
   display: inline-block;
   vertical-align: middle;
   height: 100%;
-}
+} */
+
 header .banner {
   display: inline-block;
   vertical-align: middle;
@@ -97,6 +98,12 @@ header .scrolldown a:hover { color: #0762f9; }
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+
+.App-logo-mini {
+  height: 2.5vmin;
+  pointer-events: none;
+  animation: App-logo-spin infinite 20s linear;
 }
 
 @media (prefers-reduced-motion: no-preference) {
