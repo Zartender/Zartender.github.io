@@ -5,6 +5,7 @@ class Resume extends Component {
     render() {
         return (
            <div>
+               <h1>Resume</h1>
                 <h2 id="resume">
                     Click on either tiny spinning React logo to view my resume.
                 </h2>      

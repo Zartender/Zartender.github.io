@@ -18,11 +18,11 @@ class Header extends Component {
                         <li><a className="smoothscroll" href="#home">Home</a></li>
                         <li><a className="smoothscroll" href="#about">About</a></li>
                         <li><a className="smoothscroll" href="#resume">Resume</a></li>
-                        <li><a className="smoothscroll" href="#portfolio">Projects</a></li>
+                        <li><a className="smoothscroll" href="#projects">Projects</a></li>
                         <li><a className="smoothscroll" href="#contact">Contact</a></li>
                     </ul>
                     <h1>Ian Greenblott</h1>
-                    <h6>Feel free to scroll around and navigate to my references.</h6>
+                    <h6>Scroll around</h6>
                 </nav>
                 <p>
                   <img src={logo} className="App-logo-mini" alt="logo" />

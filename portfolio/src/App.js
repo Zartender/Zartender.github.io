@@ -3,6 +3,7 @@ import './App.css';
 import Header from './Components/Header';
 import About from './Components/About';
 import Resume from './Components/Resume';
+import Projects from './Components/Projects'; 
 
 
 class App extends Component {
@@ -34,6 +35,7 @@ render() {
       <Header/>
       <About/>
       <Resume/>
+      <Projects/>
     </div>
   );
 }
