@@ -3,6 +3,7 @@ import logo from './logo.svg';
 
 
 
+
 class Header extends Component {
     render() {
         return (
@@ -21,16 +22,17 @@ class Header extends Component {
                         <li><a className="smoothscroll" href="#contact">Contact</a></li>
                     </ul>
                     <h1>Ian Greenblott</h1>
+                    <h6>Feel free to scroll around and navigate to my references.</h6>
                 </nav>
                 <p>
                   <img src={logo} className="App-logo-mini" alt="logo" />
                 </p>        <a
                     className="App-link"
-                    href="https://reactjs.org"
+                    href="https://github.com/Zartender"
                     target="_blank"
                     rel="noopener noreferrer"
                 >
-                    Learn React
+                    My Github Profile
                 </a>
                 {/* <img src={logo} className="App-logo" alt="logo" /> */}
             </header>
